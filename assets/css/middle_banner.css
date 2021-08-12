@@ -1,0 +1,16 @@
+.middle-banner{
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.middle-banner .mdb-item{
+    width: 295px;
+    height: 150px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.mdb-item img{
+    border-radius: 20px;
+}

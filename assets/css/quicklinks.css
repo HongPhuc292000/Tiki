@@ -1,0 +1,29 @@
+.quicklinks{
+    background-color: #fff;
+    padding: 16px 0;
+    justify-content: space-between;
+    align-items: initial;
+    border-radius: 2px;
+}
+
+.quicklinks .quicklin-item{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 103px;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.quicklin-item img{
+    width: 48px;
+    height: 48px;
+}
+
+.quicklin-item .quicklink-content{
+    margin-top: 14px;
+    font-size: 12px;
+    width: 81px;
+    text-align: center;
+    line-height: 1.6;
+}

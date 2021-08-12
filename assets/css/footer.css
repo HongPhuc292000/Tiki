@@ -1,0 +1,118 @@
+.footer{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 32px;
+}
+
+.footer .top-foot{
+    display: flex;
+    width: 1240px;
+    margin: auto;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.footer .bottom-foot{
+    width: 1240px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.top-foot .customer-support{
+    flex: 1.6;
+}
+
+.top-foot .about{
+    flex: 1;
+}
+
+.top-foot .co-operate{
+    flex: 1;
+}
+
+.top-foot .payment-methods{
+    flex: 1;
+}
+
+.top-foot .connect-download{
+    flex: 1;
+}
+
+.top-foot .heading-foot{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.content-foot .text-link{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.content-foot .hotline{
+    color: rgb(196, 1, 26);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.content-foot .img-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    color: rgb(13, 92, 182);
+    margin-left: 12px;
+}
+
+.hotline span{
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.content-foot .payment-card{
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.connect-download .connect-us{
+    margin-bottom: 48px;
+}
+
+.download a{
+    display: block;
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+
+.download img{
+    width: 100%;
+}
+
+.copyright p:first-child{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.copyright p:last-child{
+    font-size: 12px;
+}
+
+.certificate a{
+    display: block;
+}
+
+.certificate a:first-child img{
+    height: 36px;
+    width: auto;
+}

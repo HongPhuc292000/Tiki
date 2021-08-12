@@ -1,0 +1,119 @@
+.today-suggest .featured-heading{
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+
+.suggest-nav{
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.suggest-nav .suggest-category{
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    width: calc(100%/8);
+    padding: 8px 8px;
+    border: 1px solid #fff;
+}
+
+.suggest-nav .suggest-category:hover{
+    border: 1px solid rgb(13, 92, 182);
+}
+
+.suggest-nav .suggest-category:hover .suggest-des{
+    color: rgb(13, 92, 182);
+}
+
+.suggest-nav .suggest-category:not(:last-child){
+    margin-right: 4px;
+}
+
+.suggest-category img{
+    width: 48px;
+    height: auto;
+}
+
+.suggest-category .suggest-des{
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.suggest-items{
+    background-color: #fff;
+    border-radius: 2px;
+    flex-wrap: wrap;
+}
+
+.suggest-items .suggest-item{ 
+    font-size: 13px;
+    width: calc(100%/5);
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.suggest-items .suggest-item:hover{
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+}
+
+.suggest-item img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    height: auto;
+    align-self: center;
+}
+
+.suggest-item .item-des{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.suggest-item .price{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.price .sale{
+    background-color: rgb(255, 66, 78);
+    color: #fff;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+.suggest-items .seemore{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px 12px;
+
+}
+
+.seemore a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(13, 92, 182);
+    border: 1px solid rgb(13, 92, 182);
+    border-radius: 4px;
+    width: 240px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.seemore a:hover{
+    background-color: rgb(3, 92, 182);
+    color: #fff;
+}

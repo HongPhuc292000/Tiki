@@ -1,0 +1,13 @@
+.bottom-banner{
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.bottom-banner .btb-item{
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btb-item img{
+    border-radius: 20px;
+}
