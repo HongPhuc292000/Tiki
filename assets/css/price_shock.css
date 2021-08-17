@@ -21,9 +21,29 @@
     font-style: italic;
 }
 
+.timing-shock .countdown-shock{
+
+}
+
+.countdown-shock p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 0 3px;
+    margin: 0 4px;
+    background-color: rgb(255, 66, 78);
+    border-radius: 4px;
+    color: #fff;
+}
+
+.countdown-shock img{
+    display: inline-block;
+    height: 28px;
+    width: auto;
+}
+
 .shock-product{
     width: 200%;
-
 }
 
 .shock-product .products{

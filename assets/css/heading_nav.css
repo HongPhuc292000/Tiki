@@ -210,6 +210,127 @@
 .top-nav .user{
     margin-left: 16px;
     cursor: pointer;
+    position: relative;
+}
+
+.top-nav .user:hover .login-container{
+    display: block;
+}
+
+.user .login-container{
+    display: none;
+    position: absolute;
+    top: 140%;
+    left: -50%;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(239, 239, 239);
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.4);
+}
+
+.user .login-container::before{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.user .login-container::after{
+    content: "";
+    display: block;
+    background-color: transparent;
+    width: 150px;
+    height: 24px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.login-container button{
+    display: block;
+    border: none;
+    outline: none;
+    width: 236px;
+    height: 40px;
+    margin: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    opacity: 0.8;
+}
+
+.login-container .yellow-btn{
+    color: rgb(74, 74, 74);
+    background-color: rgb(253, 216, 53);
+}
+
+.login-container .social-btn{
+    color: #fff;
+    text-align: left;
+    display: flex;
+}
+
+.login-container .social-btn:nth-child(3){
+    background-color: rgb(59, 89, 152);
+}
+
+.login-container .social-btn:nth-child(4){
+    background-color: rgb(223, 74, 50);
+}
+
+.login-container .social-btn:last-child{
+    background-color: rgb(15, 142, 221);
+}
+
+.social-btn .social-icon{
+    display: inline-block;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.social-btn span{
+    line-height: 40px;
+}
+
+.social-btn i{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.login-container .social-btn:nth-child(3) i{
+    background: url('../img/icon/sprite.png');
+    background-position: -290px -288px;
+}
+
+.login-container .social-btn:nth-child(4) i{
+    background: url('../img/icon/sprite.png');
+    background-position: -29px -288px;
+}
+
+.login-container .social-btn:nth-child(5) i{
+    background: url('../img/icon/sprite.png');
+    background-position: -240px -72px;
+    width: 25px;
+    height: 25px;
+}
+
+.social-btn .social-login{
+    display: block;
+    text-align: center;
+    flex: 1;
 }
 
 .top-nav .cart{

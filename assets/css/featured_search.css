@@ -20,6 +20,7 @@
 
 .featured-heading .right-heading{
     color: rgb(13, 92, 182);
+    cursor: pointer;
 }
 
 .featured-search .featured-search-content{
